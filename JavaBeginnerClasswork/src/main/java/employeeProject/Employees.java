@@ -28,7 +28,7 @@ public class Employees {
 
     public void display() {
         System.out.println("First Name: " + getFirstName());
-        System.out.println("Last Name; " + getLastName());
+        System.out.println("Last Name: " + getLastName());
         System.out.println("Employee ID: " + getEmpID());
         System.out.println("Department: " + getDepartment());
         System.out.println("Salary: " + getSalary());
