@@ -9,12 +9,12 @@ package employeeProject;
  *
  * @author fabio
  */
-public class HR extends Employees {
+public class Acc extends Employees {
 
     private String role;
     private String responsibility;
 
-    public HR(String firstName, String lastName, int empID, String department, double salary, String role, String responsibility) {
+    public Acc(String firstName, String lastName, int empID, String department, double salary, String role, String responsibility) {
         super(firstName, lastName, empID, department, salary);
         this.role = role;
         this.responsibility = responsibility;

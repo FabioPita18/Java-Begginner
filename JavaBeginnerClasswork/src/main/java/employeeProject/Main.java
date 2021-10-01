@@ -17,6 +17,17 @@ public class Main {
         emp01.setEmpID(576);
         System.out.println("..........\n");
         emp01.display();
-    }
 
+        IT emp02 = new IT("Fabio", "Pita", 387, "Information Technology", 67000.0, "Back-end", "Team manager");
+        emp02.display();
+        emp02.setEmpID(832);
+        System.out.println("..........\n");
+        emp02.display();
+
+        Acc emp03 = new Acc("Gianluca", "Palmarozza", 523, "Accounting", 81000.0, "General accounts", "Charted Accountant");
+        emp03.display();
+        emp03.setEmpID(907);
+        System.out.println("..........\n");
+        emp03.display();
+    }
 }

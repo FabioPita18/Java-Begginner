@@ -34,12 +34,12 @@ public class Employees {
         System.out.println("Salary: " + getSalary());
     }
 
-    public String Employees() {
-        return "Employee: " + firstName + "\n" + "Last name: " + lastName
-                + "Employee ID: " + empID + "\n"
-                + "Department: " + department + "\n"
-                + "Salary: " + salary;
-    }
+//    public String Employees() {
+//        return "Employee: " + firstName + "\n" + "Last name: " + lastName
+//                + "Employee ID: " + empID + "\n"
+//                + "Department: " + department + "\n"
+//                + "Salary: " + salary;
+//    }
 
     public String getFirstName() {
         return firstName;
